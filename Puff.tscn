@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://2vnqhao3ck0a"]
+
+[ext_resource type="Texture2D" uid="uid://ryq6h8a8vruh" path="res://Cream-Puffs-2.jpg" id="1_xuc38"]
+[ext_resource type="Script" path="res://Puff.cs" id="2_5wvmo"]
+
+[node name="Puff" type="Sprite2D"]
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("1_xuc38")
+script = ExtResource("2_5wvmo")
